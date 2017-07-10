@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redfin.Utility", "Utility\Redfin.Utility.csproj", "{19484C0F-05C1-46CC-BFF4-4D45D8751B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redfin.DataAccess", "DataAccess\Redfin.DataAccess.csproj", "{988EE45A-F21B-4C10-B547-6AE7134A7ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redfin.SiteAccess", "SiteAccess\Redfin.SiteAccess.csproj", "{1F790EE5-6B5C-47B5-8DDD-9E3385DBD7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Redfin.DataAccess", "Tests\Test.DataAccess\Test.Redfin.DataAccess.csproj", "{FE949B4B-08D4-4099-B49A-065DFC2DEACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Redfin.SiteAccess", "Tests\Test.SiteAccess\Test.Redfin.SiteAccess.csproj", "{B53F2974-7DC0-4645-B5BA-A18D3C3A3678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Redfin.Utility", "Tests\Test.Utility\Test.Redfin.Utility.csproj", "{31C5A0E6-7C8D-4BC5-9CFB-725DC2855A91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19484C0F-05C1-46CC-BFF4-4D45D8751B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19484C0F-05C1-46CC-BFF4-4D45D8751B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19484C0F-05C1-46CC-BFF4-4D45D8751B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19484C0F-05C1-46CC-BFF4-4D45D8751B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988EE45A-F21B-4C10-B547-6AE7134A7ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988EE45A-F21B-4C10-B547-6AE7134A7ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988EE45A-F21B-4C10-B547-6AE7134A7ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988EE45A-F21B-4C10-B547-6AE7134A7ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F790EE5-6B5C-47B5-8DDD-9E3385DBD7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F790EE5-6B5C-47B5-8DDD-9E3385DBD7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F790EE5-6B5C-47B5-8DDD-9E3385DBD7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F790EE5-6B5C-47B5-8DDD-9E3385DBD7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE949B4B-08D4-4099-B49A-065DFC2DEACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE949B4B-08D4-4099-B49A-065DFC2DEACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE949B4B-08D4-4099-B49A-065DFC2DEACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE949B4B-08D4-4099-B49A-065DFC2DEACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53F2974-7DC0-4645-B5BA-A18D3C3A3678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53F2974-7DC0-4645-B5BA-A18D3C3A3678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53F2974-7DC0-4645-B5BA-A18D3C3A3678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53F2974-7DC0-4645-B5BA-A18D3C3A3678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C5A0E6-7C8D-4BC5-9CFB-725DC2855A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C5A0E6-7C8D-4BC5-9CFB-725DC2855A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C5A0E6-7C8D-4BC5-9CFB-725DC2855A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C5A0E6-7C8D-4BC5-9CFB-725DC2855A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
