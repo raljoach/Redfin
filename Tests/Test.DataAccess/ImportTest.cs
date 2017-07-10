@@ -21,7 +21,7 @@ namespace Test.Redfin.DataAccess
             // Arrange
             var path = @"C:\Users\ralph.joachim\Desktop\3153\Desktop\NotesArchive\R\MachineLearningWithR\chapter 3\problems\01.redfin\issaquahurls.txt";
             var readerMock = new Mock<UrlsReader>(path);
-            readerMock.Setup(x => x.ReadLine()).Returns(
+            readerMock.Setup(x => x.Read()).Returns(
                   new List<Tuple<Uri,string>>()
                   {
                       new Tuple<Uri,string>(
