@@ -75,6 +75,7 @@ namespace Redfin.DataAccess.Urls
                 Next();
             }
             _callback(line);
+            Next();
         }
     }
 }
